@@ -60,7 +60,8 @@ section#training p {
 
 section#about,
 section#training,
-section#contact {
+section#contact
+section#form{
     background-color: #f2f2f2;
     margin: 20px;
     padding: 20px;
@@ -71,7 +72,8 @@ section#contact {
 
 section#about h2,
 section#training h2,
-section#contact h2 {
+section#contact h2,
+section#form h2 {
     color: #3498db;
 }
 
@@ -162,7 +164,7 @@ footer {
     margin: 20px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 95%;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -184,6 +186,7 @@ footer {
         width: 100%;
         margin-top: 10px;
         overflow-x: auto;
+        max-width: fit-content;
     }
 
     table, th, td {
@@ -191,7 +194,7 @@ footer {
     }
 
     th, td {
-        padding: 10px;
+        padding: 0px;
     }
 
     footer{
