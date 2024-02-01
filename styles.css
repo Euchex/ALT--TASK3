@@ -164,7 +164,7 @@ footer {
     margin: 20px;
     position: fixed;
     bottom: 0;
-    width: 95%;
+    width: 97%;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -199,5 +199,6 @@ footer {
 
     footer{
         position: relative;
+        max-width: 450px;
     }
 }
